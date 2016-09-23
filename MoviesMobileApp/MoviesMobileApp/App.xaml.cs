@@ -15,12 +15,6 @@ namespace MoviesMobileApp
 
         public App()
         {
-            /*
-            DependencyService.Register<CacheService>();
-            DependencyService.Register<RemoteService>();
-            DependencyService.Register<MoviesService>();
-            DependencyService.Register<NavigationService>();
-            */
             InitializeComponent();
 
             MainPage = new NavigationPage(new MoviesMobileApp.MainPage());
