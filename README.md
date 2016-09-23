@@ -1,10 +1,10 @@
 # xamarin-movie-app
 Simple movie mobile app using TMDb api
 
-Android: working
-UWP: hopefully works (sometimes tested in win10), has some limitations
-iOS: not tested, hopefully works
-others: possible not working
+* Android: ready
+* UWP: hopefully works (sometimes tested in win10), has some limitations
+* iOS: not tested, hopefully works
+* others: possible not working
 
 ## screenshots
 ![Nexus 4 screen](https://lh6.googleusercontent.com/yYA0A_y-IXSTEiqjlP17zbV6_IIiB6G9Gvx5j1HFF1MAMlogL_7XQ7fiGas9q_6QPZ_oPpGaZBWwwoo=w1440-h721-rw)
