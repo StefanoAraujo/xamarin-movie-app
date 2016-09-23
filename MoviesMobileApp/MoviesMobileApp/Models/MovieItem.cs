@@ -27,6 +27,7 @@ namespace MoviesMobileApp.Models
         public int Number { get; set; }
         public string Genres {get; set;} 
         public int Index { get; set; } 
-        public string MovieUrl { get; set; } 
+        public string MovieUrl { get; set; }
+        public string PosterThumbPath { get; set; }
     }
 }

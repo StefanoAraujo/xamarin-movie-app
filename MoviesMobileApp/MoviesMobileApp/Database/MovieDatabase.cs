@@ -24,10 +24,14 @@ namespace MoviesMobileApp.Database
 
         public MovieDatabase()
         {
+            /*
             var rootFolderPath = DependencyService.Get<IFileService>().FileStoragePath;
             var dbPath = Path.Combine(rootFolderPath, DbFileName);
-
             _db = new SQLiteConnection(dbPath);
+            */
+
+            _db = DependencyService.Get<ISQLite>().GetConnection();
+
             _db.CreateTable<MovieDbItem>();
         }
 

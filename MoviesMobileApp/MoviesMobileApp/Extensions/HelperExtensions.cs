@@ -33,7 +33,8 @@ namespace MoviesMobileApp.Extensions
                 VoteAverage = item.VoteAverage,
                 VoteCount = item.VoteCount,
                 Genres = item.Genres,
-                MovieUrl = item.MovieUrl
+                MovieUrl = item.MovieUrl,
+                PosterThumbPath = item.PosterThumbPath,
             };
         }
 
@@ -46,7 +47,7 @@ namespace MoviesMobileApp.Extensions
                Title = item.Title,
                Description = string.Format("{0}% | {1}", (int)(item.VoteAverage * 10), item.Genres),
                PosterSource = new Xamarin.Forms.UriImageSource
-               { Uri = new Uri(item.PosterPath), CachingEnabled = true, CacheValidity = new TimeSpan(10, 0, 1, 0) }
+               { Uri = new Uri(item.PosterThumbPath), CachingEnabled = true, CacheValidity = new TimeSpan(10, 0, 1, 0) }
            };
         }
 

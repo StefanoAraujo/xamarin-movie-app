@@ -13,6 +13,7 @@ namespace MoviesMobileApp.Models
     public interface IMovieItem
     {
         string PosterPath { get;}
+        string PosterThumbPath { get; }
         bool Adult { get; }
         string Overview { get;  }
         string ReleaseDate { get;  }

@@ -37,12 +37,17 @@ namespace MoviesMobileApp.Settings
         /// <summary>
         /// Small images path, use with image baseurl
         /// </summary>
-        string SmallImageMethod { get; }
+        string PosterImageMethod { get; }
+
+        /// <summary>
+        /// thumb of poster image
+        /// </summary>
+        string PosterThumbImageMethod { get; }
 
         /// <summary>
         /// Large images path, use with image baseurl
         /// </summary>
-        string LargeImageMethod { get; }
+        string BackdropImageMethod { get; }
 
         /// <summary>
         /// Count of items on page requested with remoteservice

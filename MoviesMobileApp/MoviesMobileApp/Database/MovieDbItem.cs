@@ -19,6 +19,7 @@ namespace MoviesMobileApp.Database
         [MaxLength(100)]
         public string OriginalTitle { get; set; }
         public string PosterPath { get; set; }
+        public string PosterThumbPath { get; set; }
         public bool Adult { get; set; }
         public string Overview { get; set; }
         public string ReleaseDate { get; set; }

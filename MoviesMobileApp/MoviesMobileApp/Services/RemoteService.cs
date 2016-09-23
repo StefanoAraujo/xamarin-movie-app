@@ -74,11 +74,11 @@ namespace MoviesMobileApp.Services
             return Settings.ItemsOnPage;
         }
 
-        public string GetSmallImagePath(string imagePath)
+        public string GetPosterImagePath(string imagePath, bool isThumbnail =false)
         {
             try
             {
-                return string.Concat(Settings.ImageBaseUrl, Settings.SmallImageMethod, imagePath);
+                return string.Concat(Settings.ImageBaseUrl, isThumbnail ? Settings.PosterThumbImageMethod : Settings.PosterImageMethod, imagePath);
             }
             catch
             {
@@ -86,11 +86,11 @@ namespace MoviesMobileApp.Services
             }
         }
 
-        public string GetLargeImagePath(string imagePath)
+        public string GetBackdropImagePath(string imagePath)
         {
             try
             {
-                return string.Concat(Settings.ImageBaseUrl, Settings.LargeImageMethod, imagePath);
+                return string.Concat(Settings.ImageBaseUrl, Settings.BackdropImageMethod, imagePath);
             }
             catch
             {
@@ -190,9 +190,10 @@ namespace MoviesMobileApp.Services
                     // Add some additional info
                     Index = (pageData.Page - 1) * GetCountOfItemsOnPage() + jsonItems.IndexOf(jsonItem),
                     Genres = CreateGenresString(jsonItem.GenreIds),
-                    BackdropPath = GetSmallImagePath(jsonItem.BackdropPath),
+                    BackdropPath = GetBackdropImagePath(jsonItem.BackdropPath),
                     MovieUrl = GetMovieUrl(jsonItem.Id),
-                    PosterPath = GetSmallImagePath(jsonItem.PosterPath),
+                    PosterPath = GetPosterImagePath(jsonItem.PosterPath),
+                    PosterThumbPath = GetPosterImagePath(jsonItem.PosterPath, true),
                 };
                 items.Add(item);
             }
