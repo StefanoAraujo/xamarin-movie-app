@@ -7,6 +7,6 @@ Simple movie mobile app using TMDb api
 * others: possible not working
 
 ## screenshots
-![Nexus 4 screen](https://lh6.googleusercontent.com/yYA0A_y-IXSTEiqjlP17zbV6_IIiB6G9Gvx5j1HFF1MAMlogL_7XQ7fiGas9q_6QPZ_oPpGaZBWwwoo=w1440-h721-rw)
-![Nexus 4 screen](https://lh3.googleusercontent.com/YhuxrY440Ot5ssNNUMXGVsSqSIIj_ldJhtp6GKeKPa6l_Ri1KnhAHsVRVbu1y2t2_RDmLE5xoWAnCH4=w1440-h721-rw)
+![Nexus 4 screen](https://github.com/mate5/xamarin-movie-app/blob/master/screenshots/Screenshot_2016-09-22-23-34-50.png)
+![Nexus 4 screen](https://github.com/mate5/xamarin-movie-app/blob/master/screenshots/Screenshot_2016-09-22-23-35-22.png)
 
