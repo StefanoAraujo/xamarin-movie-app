@@ -1,6 +1,14 @@
 # xamarin-movie-app
 Simple movie mobile app using TMDb api
 
+### Overview
+* Use Xamarin.Forms
+* Load movie data from Rest service
+* Cache loaded data in device in SQLite database (for offline mode)
+* Show movie list
+* Show simple detail page
+
+### Platforms tested:
 * Android: ready
 * UWP: hopefully works (sometimes tested in win10), has some limitations
 * iOS: not tested, hopefully works
