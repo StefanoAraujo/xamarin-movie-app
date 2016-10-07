@@ -5,7 +5,7 @@
 ### Overview
 * Use Xamarin.Forms
 * Load movie data on demand from Rest service
-* Cache loaded data in device in SQLite database (for offline mode)
+* Cache loaded data in device using SQLite database (for offline mode)
 * Show movie list
 * Show simple detail page
 
