@@ -1,5 +1,6 @@
 # xamarin-movie-app
-Simple movie mobile app using TMDb api
+* Simple movie mobile app using TMDb api 
+* Purpose: Discover trending movies
 
 ### Overview
 * Use Xamarin.Forms
