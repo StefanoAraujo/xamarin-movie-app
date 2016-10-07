@@ -9,7 +9,8 @@
 * Show movie list
 * Show simple detail page
 
-![Nexus 4 gif](https://github.com/martatesar/xamarin-movie-app/blob/master/screenshots/gifpreview.gif)
+### Click to watch on Youtube
+[![Nexus 4 gif](https://github.com/martatesar/xamarin-movie-app/blob/master/screenshots/gifpreview.gif)(https://youtu.be/LKTXW0VE8-k)]
 
 ### Platforms tested:
 * Android: ready
