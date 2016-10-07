@@ -10,7 +10,7 @@
 * Show simple detail page
 
 ### Click to watch on Youtube
-[![Nexus 4 gif](https://github.com/martatesar/xamarin-movie-app/blob/master/screenshots/gifpreview.gif)(https://youtu.be/LKTXW0VE8-k)]
+[![Nexus 4 gif](https://github.com/martatesar/xamarin-movie-app/blob/master/screenshots/gifpreview.gif)](https://youtu.be/LKTXW0VE8-k)
 
 ### Platforms tested:
 * Android: ready
