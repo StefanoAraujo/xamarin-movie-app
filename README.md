@@ -9,6 +9,8 @@
 * Show movie list
 * Show simple detail page
 
+![Nexus 4 gif](https://github.com/martatesar/xamarin-movie-app/blob/master/screenshots/gifpreview.gif)
+
 ### Platforms tested:
 * Android: ready
 * UWP: hopefully works (sometimes tested in win10), has some limitations
